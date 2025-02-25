@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: #E4FF6E;
+} 
+nav{
+    /* background-color: rgb(113, 113, 113); */
+    width: 100%;
+    height: 50px;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+}
+nav #right_part_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    
+}
+nav #right_part_nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+nav #right_part_nav a:hover{
+    transform: scale(1.1);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    padding: 100px 100px;
+    
+}
+section .box01{
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: purple; */
+    font-weight: 800;
+    gap: 5%;
+}
+section .box01 h1{
+    font-size: 140px;
+    font-family: poopins;
+    line-height:150px;
+}
+section #image-box{
+    background-color: black;
+    width: 400px;
+    height: 80px;
+    border-radius: 50px;
+    background-image: url(https://images.unsplash.com/photo-1737993331981-f6017ecbe8fa?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+section #image-box .play{
+    width: 16%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: solid 4px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play i{
+    color: white;
+    font-size: 30px;
+}
+.play i:hover{
+    color: #E4FF6E;
+    scale: 1.2;
+}
+
+/* forbox 02 */
+section .box02{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: px 100px;
+    /* background-color: red; */
+    gap: 23%;
+}
+section .box02 h1{
+    font-size: 140px;
+    /* background-color: yellow; */
+    font-family: poopins;
+    
+}
+section .box02 p{
+    width: 900px;
+    line-height: 30px;
+}
+
+/* button-bottom */
+.button-bottom{
+    /* background-color: red; */
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.button-bottom #b1{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-bottom #b2{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button-bottom .shape{
+    width: 65%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.button-bottom .shape #circle01{
+    width: 1%;
+    height: 16%;
+    background-color: rgb(108, 108, 108);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-bottom .shape #line{
+    width: 100%;
+    height: 1px;
+    margin-left: 3px;
+    border-radius: 100px;
+    background-color: black;
+}
+.button-bottom .shape #circle02{
+    width: 1%;
+    height: 16%;
+    background-color: rgb(108, 108, 108);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+    border-radius: 100px;
+}
+
+#b1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 1px rgb(255, 255, 255);;
+}
+#b2:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    box-shadow: inset 0 0 0 1px rgb(255, 255, 255);;
+}
