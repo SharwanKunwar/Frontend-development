@@ -16,7 +16,7 @@ This project is a simple practice webpage built using HTML and CSS. It features 
 
 ## Page screenshot
 
-![Digitalize Ideas](screenshot.png)
+![image alt](https://github.com/SharwanKunwar/Frontend-development/blob/main/FRONTEND-PRACTICE%20PAGES/web01/screenshot_page.png?raw=true)
 
 
 ## Limitations
@@ -37,6 +37,6 @@ This project is a simple practice webpage built using HTML and CSS. It features 
 - Implement a backend for dynamic content.
 
 ## Author
-[Your Name]  
+[Sharwan jung kunwar]  
 Practice project for improving frontend development skills.
 
