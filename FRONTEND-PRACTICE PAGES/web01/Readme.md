@@ -37,6 +37,6 @@ This project is a simple practice webpage built using HTML and CSS. It features 
 - Implement a backend for dynamic content.
 
 ## Author
-[Your Name]  
+[Sharwan jung kunwar]  
 Practice project for improving frontend development skills.
 
