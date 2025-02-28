@@ -46,7 +46,7 @@ body{
     background: conic-gradient(
       from 45deg,
       transparent 75%,
-      #4e18e5,
+      #ffffff,
       transparent 100%
     );
     animation: spin 4s ease-in-out infinite;
@@ -94,7 +94,7 @@ body{
       8px 8px 16px rgba(0, 0, 0, 0.2),
       -8px -8px 16px rgba(255, 255, 255, 0.06);
     border-radius: 100px;
-    /* border: 2px solid #fff; */
+    border: 2px solid #fff;
     display: flex;
     justify-content: center;
     align-items: center;
